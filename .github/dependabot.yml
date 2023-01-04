@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gomod" # See documentation for possible values
-    directory: ".github/actions/joke-action/node_modules/uri-js/yarn.lock" # Location of package manifests
+  - package-ecosystem: "nom" # See documentation for possible values
+    directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
